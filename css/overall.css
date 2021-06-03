@@ -1,0 +1,44 @@
+.container {
+	max-width: 100%;
+	padding: 0 34px;
+	margin: 0 auto;
+}
+
+.site-container {
+	overflow: hidden;
+}
+
+.flex {
+	display: flex;
+}
+
+.btn-reset {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+.social {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+    align-items: center;
+    display: flex;
+}
+.social--list {
+    align-items: center;
+}
+.social--item {
+	margin-right: 24px;
+}
+.social--item:last-child {
+	margin-right: 0;
+}
+.social--link {
+	-webkit-transition: .15s;
+	transition: .15s;
+    opacity: .4;
+}
+.social--link:hover {
+	-webkit-transition: .15s;
+    transition: .15s;
+    opacity: 1;
+}
