@@ -1,0 +1,31 @@
+.footer {
+    font-family: Philosopher, sans-serif;
+    width: 100%;
+    height: 71px;
+    background-color: black;
+    padding: 23px 42px;
+    margin: 0 auto;
+    align-items: center;
+    &__link {
+        &--logo {
+            width: 40px;
+            height: 26px;
+        }
+        &--btn {
+            color: white;
+            padding: 5px 13px;
+            border: solid 1px rgba(255,255,255,.4);
+            border-radius: 50px;
+            transition: .15s;
+            &:hover {
+                transition: .15s;
+                background-color: rgba(255,255,255,.4);
+                border: solid 1px rgba(255,255,255,0);
+            }
+        }
+    }
+    &__list {
+        justify-content: space-between;
+        align-items: center;
+    }
+}
